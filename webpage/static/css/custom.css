@@ -1,0 +1,190 @@
+/*! Place your custom styles here */
+/* nvabar */
+div.bar.bar{
+    background-color: #5874e4;
+   
+}
+nav#menu1.bar{
+    background-color: #5874e4;
+    height:auto;
+   
+  
+}
+
+
+/* main */
+section.cover{
+    height:70%;
+    background-color: #5874e4;
+    
+}
+
+div.maintypo{
+    height:300px;
+}
+
+p.title_front{
+    font-size: 50px;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+p.title_front2{
+    font-size: 30px;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+div.container#main_front{
+    height:370px;
+}
+div.row#main_front2{
+    height:300px;
+}
+/* about */
+
+
+h1.lead.about{
+    font-size: 27px;
+}
+
+h4#about_1{
+    font-weight: bold;
+}
+
+div.container.main_front{
+    height:200px;
+}
+
+
+/* product */
+
+h3#related_pr{
+    font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
+    color: #252525;
+    font-weight: 300;
+    font-variant-ligatures: common-ligatures;
+    margin-top: 0;
+}
+
+
+
+/* 
+store */
+
+div.storefront{
+    background-color: #5874e4;
+}
+
+
+
+
+p#maintypo{
+    font-size:3vw
+}
+
+
+
+div.base_footer{
+    height:auto;
+}
+
+
+/* 
+div.about_front{
+
+    background-image: url("/static/image/link.jpg");
+
+    background-size: cover;
+    
+
+
+} */
+
+
+
+
+img.mainpage_img1{
+    margin-left: 10%;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 65%;
+    height: 80%;
+}
+
+img.ebay{
+    opacity: 70%;
+    height: 90%;
+    width: 805;
+
+}
+
+
+
+
+/* footer */
+footer{
+    height:100px;
+}
+
+
+@media (max-width: 767px){
+h3#related_pr{
+    font-size: 1.35714286em;
+    line-height: 1.85714286em;
+}
+}
+
+@media screen and (max-width:1000px){
+
+/* main */
+
+p.title_front{
+    font-size: 38px;
+    font-family: inherit;
+    /* font-weight: 400; */
+    text-align: left;
+
+}
+
+p.title_front2{
+    font-size: 28px;
+    font-family: inherit;
+    font-weight: 400;
+    text-align: left;
+
+}
+
+
+
+
+
+img.contactpage_img{
+        display: block;
+        visibility:hidden;
+    }
+
+    img.ebay{
+  
+        display: block;
+        visibility:hidden;
+    }
+    
+
+
+}
+@media screen and (max-width:1300px){
+
+img.contactpage_img1{
+    margin-left: 100px;
+    margin-top: 32%;
+    margin-bottom: 0;
+    width: 60%;
+    height: 100%;
+}
+}
+

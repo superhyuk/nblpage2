@@ -1,0 +1,15 @@
+*.log 
+*.pot 
+*.py[cod] 
+.Python
+.DS_Store
+.vscode/
+
+__pycache__/ 
+
+local_settings.py 
+
+db.sqlite3 
+
+media
+
