@@ -41,7 +41,8 @@ DEBUG = os.getenv("DEBUG", "False") == "True"
 
 # ALLOWED_HOSTS = os.getenv("DJANGO_ALLOWED_HOSTS,www.nextbrg.com", "127.0.0.1,localhost").split(",")
 
-ALLOWED_HOSTS =["DJANGO_ALLOWED_HOSTS","www.nextbrg.com","127.0.0.1","localhost"]
+ALLOWED_HOSTS =["DJANGO_ALLOWED_HOSTS","www.nextbrg.com","nextbrg.com",
+                "127.0.0.1","localhost"]
 
 
 # Application definition
