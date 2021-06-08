@@ -16,9 +16,10 @@ from django.core.management.utils import get_random_secret_key
 from pathlib import Path
 import sys
 
-BASE_DIR = Path(__file__).resolve().parent.parent
+# BASE_DIR = Path(__file__).resolve().parent.parent
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
-# BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
 
 SESSION_COOKIE_SECURE = True
 CSRF_COOKIE_SECURE = True
